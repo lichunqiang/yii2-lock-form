@@ -1,0 +1,21 @@
+{
+  "name": "light/yii2-lock-form",
+  "description": "yii2 activeform ActiveForm bootstrap loading",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lichunqiang",
+      "email": "light-li@hotmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "^2.0.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "light\\widgets\\": ""
+    }
+  }
+}

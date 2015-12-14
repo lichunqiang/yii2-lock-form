@@ -1,7 +1,7 @@
 yii2-lock-form
 -----------
 [![version](https://img.shields.io/packagist/v/light/yii2-lock-form.svg?style=flat-square)](https://packagist.org/packages/light/yii2-lock-form)
-[![Download](https://img.shields.io/packagist/dd/light/yii2-lock-form.svg?style=flat-square)](https://packagist.org/packages/light/yii2-lock-form)
+[![Download](https://img.shields.io/packagist/dt/light/yii2-lock-form.svg?style=flat-square)](https://packagist.org/packages/light/yii2-lock-form)
 [![Issues](https://img.shields.io/github/issues/lichunqiang/yii2-lock-form.svg?style=flat-square)](https://github.com/lichunqiang/yii2-lock-form/issues)
 
 Make form submit button disabled when the form submit.

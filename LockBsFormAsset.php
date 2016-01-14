@@ -28,7 +28,7 @@ class LockBsFormAsset extends AssetBundle
     /**
      * {@inheritdoc}
      */
-    public $js = ['assets/lock.js'];
+    public $js = ['assets/lock.bootstrap.js'];
 
     /**
      * {@inheritdoc}

@@ -92,12 +92,17 @@
     $submit.button('loading');
   }
   function resetLoading() {
-   var $self = $(this),
-     $submit = $self.data('yiiActiveForm').submitObject;
-   if (!$submit) {
-     $submit = $self.find('[type=submit]');
-   }
-   $submit.button('reset');
+    var $self = $(this),
+      _data = $self.data('yiiActiveForm'),
+      $submit = _data.submitObject;
+
+    if (!_data.submitting) {
+      return null;
+    }
+    if (!$submit) {
+      $submit = $self.find('[type=submit]');
+    }
+    $submit.button('reset');
   }
 
   yii.lock = {

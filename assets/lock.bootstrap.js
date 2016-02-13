@@ -11,7 +11,12 @@
 
   function resetLoading() {
     var $self = $(this),
-      $submit = $self.data('yiiActiveForm').submitObject;
+      _data = $self.data('yiiActiveForm'),
+      $submit = _data.submitObject;
+
+    if (!_data.submitting) {
+      return null;
+    }
     if (!$submit) {
       $submit = $self.find('[type=submit]');
     }

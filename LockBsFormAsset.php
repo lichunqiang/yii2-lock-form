@@ -18,7 +18,7 @@ use yii\web\AssetBundle;
  *
  * Use this bundle when you have install yii2-bootstrap
  *
- * @version 1.0.0
+ * @version 1.0.2
  *
  * @author lichunqiang <light-li@hotmail.com>
  * @license MIT

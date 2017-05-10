@@ -27,16 +27,20 @@ class LockFormAsset extends AssetBundle
      * {@inheritdoc}
      */
     public $js = ['assets/lock.js'];
-
-    /**
-     * {@inheritdoc}
-     */
-    public $sourcePath = __DIR__;
-
     /**
      * {@inheritdoc}
      */
     public $depends = [
         'yii\web\YiiAsset',
     ];
+
+    /**
+     * {@inheritdoc}
+     */
+    public function init()
+    {
+        $this->sourcePath = __DIR__ . '/assets';
+
+        parent::init();
+    }
 }

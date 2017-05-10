@@ -28,13 +28,7 @@ class LockBsFormAsset extends AssetBundle
     /**
      * {@inheritdoc}
      */
-    public $js = ['assets/lock.bootstrap.js'];
-
-    /**
-     * {@inheritdoc}
-     */
-    public $sourcePath = __DIR__;
-
+    public $js = ['lock.bootstrap.js'];
     /**
      * {@inheritdoc}
      */
@@ -42,4 +36,14 @@ class LockBsFormAsset extends AssetBundle
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapPluginAsset',
     ];
+
+    /**
+     * {@inheritdoc}
+     */
+    public function init()
+    {
+        $this->sourcePath = __DIR__ . '/assets';
+
+        parent::init();
+    }
 }

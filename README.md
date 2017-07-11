@@ -9,7 +9,7 @@ Make form submit button disabled when the form submit.
 ## Install
 
 ```
-$ composer require light\yii2-lock-form=~1.0.2
+$ composer require light/yii2-lock-form=~1.0.2
 ```
 
 ## Usage

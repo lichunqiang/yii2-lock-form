@@ -1,5 +1,11 @@
-yii2-lock-form
------------
+<p align="center">
+    <a href="https://github.com/yiisoft" target="_blank">
+        <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
+    </a>
+    <h1 align="center">Yii2 Lock Form Extension</h1>
+    <br>
+</p>
+
 [![version](https://img.shields.io/packagist/v/light/yii2-lock-form.svg?style=flat-square)](https://packagist.org/packages/light/yii2-lock-form)
 [![Download](https://img.shields.io/packagist/dt/light/yii2-lock-form.svg?style=flat-square)](https://packagist.org/packages/light/yii2-lock-form)
 [![Issues](https://img.shields.io/github/issues/lichunqiang/yii2-lock-form.svg?style=flat-square)](https://github.com/lichunqiang/yii2-lock-form/issues)

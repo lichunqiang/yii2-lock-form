@@ -1,5 +1,5 @@
 {
-  "name": "light/yii2-lock-form",
+  "name": "a761208/yii2-lock-form",
   "description": "yii2 activeform ActiveForm bootstrap loading",
   "type": "library",
   "license": "MIT",
@@ -7,6 +7,10 @@
     {
       "name": "lichunqiang",
       "email": "light-li@hotmail.com"
+   },
+    {
+      "name": "a761208",
+      "email": "a761208@gmail.com"
     }
   ],
   "require": {
